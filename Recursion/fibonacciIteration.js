@@ -1,6 +1,7 @@
 //iteration method
 //space complexity o(1) //time complexity o(n)
 function fib(n) {
+  if (n <= 1) return n;
   let count = 1,
     pre = 0,
     curr = 1,
